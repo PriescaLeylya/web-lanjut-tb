@@ -18,8 +18,6 @@ Route::prefix('prodi')->group(function () {
     });
    });
  
-Route::get('/news/{id}', [NewsController::class,'news']);
-
 Route::prefix('sarana')->group(function () {
     Route::get('/perkantoran', function(){
         return "Perkantoran";
@@ -36,5 +34,5 @@ Route::prefix('sarana')->group(function () {
    });
 
 Route::get('/AboutUS', function () {
-    echo('SAMPAI jUMPA kEMBALI <br>PRIESCA LEYLYA SYAFITRI <br> MI 2F <br> 2031710176');
+    echo('SAMPAI JUMPA KEMBALI <br>PRIESCA LEYLYA SYAFITRI <br> MI 2F <br> 2031710176');
 });
